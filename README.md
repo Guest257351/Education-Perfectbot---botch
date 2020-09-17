@@ -14,8 +14,8 @@ code should work after that, if not you downloaded textract to a different direc
 
 Some antiviruses will alert you if you download code because some code can contain viruses so it is a good idea to check through downloaded code annywhere from the internet before running.
 
-please note that two textfiles will apear on your desktop when you start it, if you dont want them to apear on your desktop change it in the code
-do not remove the part in the code that makes textfiles or the code will not work
+please note that two text files will apear in a folder in your programdata, if you dont want them to apear here change it in the code
+do not remove the part in the code that makes text files or the code will not work.
 
 ::instructions
 
@@ -25,3 +25,4 @@ do not change to another window as it will use your keyboard and mouse to imput 
 sometimes it will get the first question wrong
 solves questions in 1-2 seconds
 if it is not working you will have to configure the screen coordinates in the code to cover the area of your screen where the math question is
+you cannot leave this sitng overnight as it still reqiures a human to give it tasks to do.
