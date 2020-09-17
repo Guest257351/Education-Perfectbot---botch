@@ -4,6 +4,7 @@ When distubiting or showcasing this file please give proper credit and a link to
 When providing a link to others do not give your own link or someone elses.
 
 ::setup
+
 currently you have to manualy install textract for this file to work.
 I am working on a built in first time setup
 textract is free for 40 days, but after you will need to pay about $100 AUD/ $73 USD
