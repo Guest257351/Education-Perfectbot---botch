@@ -1,9 +1,15 @@
 @echo off
+if not exist C:\ProgramData\botch md C:\ProgramData\botch
 echo division mode? (Y/N)
 set /p YN=
 :loop
 cd C:\Program Files (x86)\Textract
-textra.exe /capture 500 410 880 500 C:\users\%username%\desktop\dat.txt
+
+
+:: default is set to resolution 1366 x 768
+:: if you dont want to change the numbers on some screens you can go into windows settings and change the resolution, system>display
+:: edit these numbers to change screen selection area
+textra.exe /capture 500 410 880 500 C:\ProgramData\botch\dat.txt
 cd C:\ProgramData\botch
 powershell -Command "(gc dat.txt) -replace '><', '*' | Out-File -encoding ASCII output.txt"
 
